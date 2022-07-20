@@ -1,0 +1,139 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common Style */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+/* Hero Section Style */
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.hero-content {
+    width: 40%;
+    color: #FFFFFF;
+}
+
+.watch-live-btn {
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    background-color: #E33030;
+    padding: 10px;
+}
+
+.watch-live-btn:hover {
+    cursor: pointer;
+}
+
+.hero-image:hover {
+    transform: translate(42px, 5px);
+    cursor: pointer;
+}
+
+/* Match Fixture Section */
+
+.match-fixture {
+    display: flex;
+}
+
+.left-btn-column {
+    width: 150px;
+    height: 140px;
+    border-radius: 5px;
+    background-color: #161616;
+    padding: 20px;
+}
+
+.left-btn-column button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.left-btn-column button:hover {
+    background-color: #E33030;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.left-btn-column button a {
+    text-decoration: none;
+    color: #161616;
+}
+
+.upcoming-match {
+    margin-left: 100px;
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 69vw;
+    margin-bottom: 30px;
+}
+
+.match {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* Footer */
+
+footer {
+    height: 40vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+ul li {
+    display: flex;
+    padding-right: 10px;
+}
+
+.footer-content {
+    padding-top: 30px;
+}
+
+.footer-content h2 {
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 60%;
+    display: inline-block;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social-media-icons i {
+    margin-top: 30px;
+    padding-right: 10px;
+}
