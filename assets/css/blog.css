@@ -68,16 +68,17 @@ main {
     padding: 10px;
     border-radius: 5px;
     background-color: #FFFFFF;
+    color: #161616;
+}
+
+.left-btn-column button a {
+    text-decoration: none;
+    color: #161616;
 }
 
 .left-btn-column button:hover {
     background-color: #E33030;
     cursor: pointer;
-    color: #FFFFFF;
-}
-
-.left-btn-column button a {
-    text-decoration: none;
     color: #161616;
 }
 
